@@ -19,3 +19,25 @@ print(length_of_string)
 words = sample_string.split(sep= " ")
 print(words)
 print(type(words))
+#print(dir(words))
+
+
+"""
+this is the comment lines in pytho
+multiples lines comments we can use this mentiod
+"""
+print(sample_string.strip())
+
+
+# how to extract first 2 character in new string 
+# To do this we use ':'
+# ussage : start:end:step, all three are optonal
+# important: end index is not included , hence used end+1
+
+new_string = "welocme to python class"
+
+first_two = new_string[0:10] # here the step size value is 1 (defalut)
+print(first_two)
+
+alternate_char = new_string[::2] # start with 0 end: len(str)
+print(alternate_char)
