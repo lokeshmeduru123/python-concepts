@@ -13,5 +13,9 @@ print(first_string)
 last_string = sample_string[-1]
 print(last_string)
 
-length_of_string = len(sample_string)
+length_of_string = len(sample_string)   # len function
 print(length_of_string)
+
+words = sample_string.split(sep= " ")
+print(words)
+print(type(words))
