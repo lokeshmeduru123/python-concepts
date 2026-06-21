@@ -41,3 +41,9 @@ print(first_two)
 
 alternate_char = new_string[::2] # start with 0 end: len(str)
 print(alternate_char)
+
+reverse_string = new_string[::-1] # here step size is -1
+print(reverse_string)
+
+reverse_string = new_string[::-2] # here step size is -2
+print("the reverse string is :", reverse_string)

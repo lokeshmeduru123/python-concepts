@@ -9,6 +9,8 @@ python concepts
 6. multi threating, 
 7. working with 3rd party libraries
 
+interview questions 
 
+write a reverse string
 
 
