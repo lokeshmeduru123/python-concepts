@@ -10,7 +10,7 @@ python concepts
 7. working with 3rd party libraries
 
 
-'''
+"""
 print(strint)
-'''
+"""
 
